@@ -1,11 +1,10 @@
 import Markdown from './Markdown';
-import './App.css';
 
 function App() {
 	return (
-		<>
+		<div id='app'>
 			<Markdown />
-		</>
+		</div>
 	);
 }
 
